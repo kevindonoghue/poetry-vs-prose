@@ -95,7 +95,7 @@ prose_token_data = {'bodies': bodies,
 
 
 # handle poem data
-with open('poems.json') as f:
+with open('../data/poems.json') as f:
     poems = json.load(f)
   
   

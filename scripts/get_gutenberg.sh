@@ -8,3 +8,5 @@ do
 done
 
 mv gutenberg.readingroo.ms gutenberg_documents
+
+cd ../scripts
