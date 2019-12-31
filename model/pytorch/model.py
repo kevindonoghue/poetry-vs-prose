@@ -21,7 +21,7 @@ else:
 parser = argparse.ArgumentParser()
 parser.add_argument('--model-name', type=str, default='my_model')
 parser.add_argument('--num-iterations', type=int, default=100000)
-parser.add_argument('--source-filename', type=str, default='../data/poem_and_prose_data.json')
+parser.add_argument('--source-filename', type=str, default='../../data/poem_and_prose_data.json')
 args = parser.parse_args()
 
 os.makedirs(args.model_name, exist_ok=True)

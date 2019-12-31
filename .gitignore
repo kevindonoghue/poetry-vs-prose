@@ -1,4 +1,7 @@
 data
+old_data
 *.pt
 *.json
 __pycache__
+venv
+model/tensorflow/saved_model
